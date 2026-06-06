@@ -1,0 +1,5 @@
+/* paquetes.css — solo para paquetes.html
+   Bootstrap cubre: cards, table, badges, spacing. */
+
+/* Columna destacada en tabla de comparación */
+.col-destacada { background-color: #fff8ec; }

@@ -1,0 +1,27 @@
+/* global.css — Agencia Horizonte
+   Solo lo que Bootstrap no cubre. */
+
+:root {
+  --az-dark:   #0B3D6B;
+  --az-accent: #F4A623;
+  --az-muted:  #cce0f5;
+}
+
+/* Navbar */
+.navbar-az                        { background-color: var(--az-dark); }
+.navbar-az .nav-link              { color: #ccc; }
+.navbar-az .nav-link:hover,
+.navbar-az .nav-link.active       { color: var(--az-accent) !important; }
+
+/* Footer */
+.footer-az { background-color: var(--az-dark); }
+
+/* Botón y textos de acento */
+.btn-az               { background-color: var(--az-accent); color: #fff; border: none; }
+.btn-az:hover,
+.btn-az:focus         { background-color: #c8881b; color: #fff; }
+.text-az              { color: var(--az-accent) !important; }
+
+/* Hover en cards */
+.card-hover           { transition: transform .2s, box-shadow .2s; }
+.card-hover:hover     { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,.12) !important; }

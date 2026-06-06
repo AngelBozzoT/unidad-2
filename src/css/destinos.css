@@ -1,0 +1,11 @@
+/* destinos.css — solo para destinos.html */
+
+/* Altura fija de imagen en cards */
+.card-img-top { height: 200px; object-fit: cover; }
+
+/* Badge de categoría sobre la imagen */
+.card-img-wrapper { position: relative; }
+.card-img-badge {
+  position: absolute; top: 10px; left: 10px;
+  font-size: .68rem;
+}

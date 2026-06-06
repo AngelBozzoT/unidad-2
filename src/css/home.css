@@ -1,0 +1,10 @@
+/* home.css — solo para index.html */
+
+/* Hero: gradiente de marca */
+.hero {
+  background: linear-gradient(135deg, var(--az-dark) 0%, #1a5f9e 100%);
+  padding: 6rem 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+.hero p { color: var(--az-muted); }

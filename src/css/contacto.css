@@ -1,0 +1,5 @@
+/* contacto.css — solo para contacto.html */
+
+/* Alerta de éxito: JS agrega .visible */
+.alert-exito         { display: none; }
+.alert-exito.visible { display: block; }
